@@ -1,0 +1,16 @@
+.sidebarChat {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+  transition: 0.2s;
+}
+
+.sidebarChat:hover {
+  background-color: #ededed;
+}
+
+.MuiAvatar-root.MuiAvatar-circle {
+  margin-right: 20px !important;
+}
