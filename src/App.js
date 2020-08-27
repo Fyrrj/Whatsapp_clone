@@ -4,6 +4,7 @@ import "./App.css";
 import Sidebar from "./components/Sidebar";
 import Chat from "./components/Chat";
 import Login from "./components/Login";
+import Home from "./components/Home";
 import { BrowserRouter as Router, Switch, Link, Route } from "react-router-dom";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
                 <Chat />
               </Route>
               <Route path="/">
-                <h1>Home Screen</h1>
+                <Home />
               </Route>
             </Switch>
           </Router>
