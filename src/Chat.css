@@ -1,7 +1,7 @@
 .chat {
   display: flex;
   flex-direction: column;
-  flex: 0.7;
+  flex: 0.75;
   background: #ededed;
 }
 
@@ -48,6 +48,7 @@
   background-color: #fff;
   border-radius: 10px;
   width: fit-content;
+  margin-bottom: 30px;
 }
 
 .chat__name {
@@ -60,4 +61,40 @@
 .chat__timestamp {
   margin-left: 10px;
   font-size: xx-small;
+}
+
+.chat__reciever {
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+
+.chat__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid lightgray;
+}
+
+.chat__footer > form {
+  flex: 1;
+  display: flex;
+}
+
+.chat__footer > form > input {
+  flex: 1;
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border: 2px solid #fff;
+}
+
+.chat__footer > form > input:focus {
+  border: 2px solid lightseagreen;
+  color: lightseagreen;
+}
+
+.chat__footer > form > button {
+  display: none;
 }
