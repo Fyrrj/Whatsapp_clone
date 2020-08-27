@@ -98,3 +98,13 @@
 .chat__footer > form > button {
   display: none;
 }
+
+@media (max-width: 700px) {
+  .chat {
+    border-top: 4px solid #40c351;
+  }
+
+  .chat__headerRight {
+    display: none;
+  }
+}
